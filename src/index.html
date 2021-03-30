@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BlogApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://use.fontawesome.com/d4e9dbd9d5.js"></script>
+</head>
+<body onload="myFunction()">
+  <div id="loading"></div>
+  <app-root></app-root>
+  
+</body>
+<script>
+	// $(document).ready(function(){
+		// 	$('div#loading').removeAttr('id');
+	// });
+	var preloader = document.getElementById("loading");
+	// window.addEventListener('load', function(){
+	// 	preloader.style.display = 'none';
+	// 	})
+
+	function myFunction(){
+		preloader.style.display = 'none';
+	};
+</script>
+</html>

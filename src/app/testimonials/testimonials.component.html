@@ -1,0 +1,25 @@
+<section class="testimonials">
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h1 class="text-center">Testimonials</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div class="row" >
+            <div class="col-lg-4" *ngFor="let cs of testimonials">
+                <div class="box">
+                    <img src="{{cs.url}}" width="100%">
+                    <h3>
+                        {{cs.name}}
+                    </h3>
+                    <p>{{cs.description}}</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
